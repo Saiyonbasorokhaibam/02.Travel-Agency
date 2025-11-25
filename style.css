@@ -1,0 +1,170 @@
+h1, h4, h5, p {
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+p {font-size: 20px;}
+
+.top1 {
+    margin-top: 20px;
+   margin-left: 20px;
+}
+
+.link {
+     margin-top: 20px;
+   margin-left: 20px;
+}
+
+.top2 {
+    margin-top: 20px;
+   margin-left: 20px;
+}
+
+.top3 {
+    margin-top: 20px;
+   margin-left: 20px;
+}
+
+.h23 {
+    margin-top: 20px;
+   margin-left: 20px;
+}
+
+.p1 {
+    text-indent: 2em;
+}
+
+img {
+    display:flex;
+    margin: 20px auto; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f9f4;  
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.top {
+    text-align: center;
+    color: #046307;  
+    font-size: 2.2em;
+    margin-top: 20px;
+}
+
+h4, h5 {
+    text-align: center;
+    margin: 1px;
+    color: #555;
+}
+
+.p1 {
+    margin: 20px 60px;
+    text-align: justify;
+    font-size: 1.05em;
+}
+
+h2, h3, h4 {
+    color: #0b5b89;  
+}
+
+.top1, .top2, .top3 {
+    background-color: #ffffff;
+    border-left: 6px solid #228b22;
+    border-right: 3px solid red;
+    border-radius: 12px;
+    margin: 30px 40px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+a.link, a.link2, a.link3 {
+    display: inline-block;
+    background-color: #006e2e;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+a.link:hover, a.link2:hover, a.link3:hover {
+    background-color: plum;
+}
+
+ul {
+    margin-left: 80px;
+    font-size: 1em;
+}
+
+li {
+    margin: 6px 0;
+}
+
+.footer {
+    background-color: #0b5b89;
+    color: #fff;
+    height: 20;
+    padding: 10px 10px;
+    text-align: center;
+    border-top: 5px solid #046307;
+}
+
+.footer h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer .copyright {
+    font-size: 0.9em;
+    color: #f0f9f4; 
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* -------------------- ADDITIONS -------------------- */
+
+/* Smooth transitions */
+a.link, a.link2, a.link3, img {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for images */
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+/* Utility spacing classes */
+.mt-20 { margin-top: 20px; }
+.ml-20 { margin-left: 20px; }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95em;
+    }
+    .top1, .top2, .top3 {
+        margin: 20px;
+        padding: 15px;
+    }
+    ul {
+        margin-left: 40px;
+    }
+}
+
+/* Subtle fade-in animation */
+.fade-in {
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
